@@ -4,42 +4,63 @@
 
 html,
 body {
-    background: #272C34;
-    color: #989898;
-    border: solid 1px #B2161D;
+    /* background: #202020; */
+    background: #21252B;
+    /* color: #989898; */
+    color: #fff;
+    /* border: solid 1px #B2161D; */
 
-    font-family: Menlo,
-        Consolas,
-        DejaVu Sans Mono,
-        monospace;
+    font-family: Hack;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.4;
     overflow: hidden;
 }
 
 .maintile {
-    background: #665888;
+    /* background: #665888; */
     height: 100vh;
     overflow: hidden;
     display: flex;
+    justify-content: center;
 }
 
 .application {
-    margin: 10px 10px 10px 10px;
-    border: solid 1px #665888;
-    background: green;
+    margin: 10px auto;
+    padding: 5px 5px;
+    /* border: solid 1px #665888; */
+    background: #292C35;
     display: flex;
     width: 800px;
 }
 
 .sidebar {
-    border: solid 1px #B2161D;
+    border: solid 1px #474A4F;
     width: 30%;
+    padding: 10px;
 }
 
 .page {
-    border: solid 1px #B2161D;
+    border: solid 1px #474A4F;
+    margin-left: 5px;
     width: 70%;
+}
+
+.ava {
+    border: solid 1px #474A4F;
+    width: 85%;
+    display: flex;
+}
+
+.ava-style {
+    width: 100%;
+}
+
+.resume-header {
+    font-size: larger;
+}
+
+.resume-description {
+    color: #989898;
 }
