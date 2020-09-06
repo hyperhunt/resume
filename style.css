@@ -13,9 +13,13 @@ body {
     font-family: Hack;
     -webkit-text-size-adjust: none;
     text-size-adjust: none;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.4;
     overflow: hidden;
+}
+
+h2 {
+    font-size: 14px;
 }
 
 .maintile {
@@ -44,6 +48,7 @@ body {
 .page {
     border: solid 1px #474A4F;
     margin-left: 5px;
+    padding: 20px 5px 5px 20px;
     width: 70%;
 }
 
@@ -57,10 +62,16 @@ body {
     width: 100%;
 }
 
-.resume-header {
-    font-size: larger;
-}
+.resume-header {}
 
 .resume-description {
     color: #989898;
+}
+
+.tech-skills {
+    color: #4AA5F0;
+}
+
+.soft-skills {
+    color: #E05561;
 }
