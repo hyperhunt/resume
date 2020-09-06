@@ -1,0 +1,45 @@
+* {
+    margin: 0px auto;
+}
+
+html,
+body {
+    background: #272C34;
+    color: #989898;
+    border: solid 1px #B2161D;
+
+    font-family: Menlo,
+        Consolas,
+        DejaVu Sans Mono,
+        monospace;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+.maintile {
+    background: #665888;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.application {
+    margin: 10px 10px 10px 10px;
+    border: solid 1px #665888;
+    background: green;
+    display: flex;
+    width: 800px;
+}
+
+.sidebar {
+    border: solid 1px #B2161D;
+    width: 30%;
+}
+
+.page {
+    border: solid 1px #B2161D;
+    width: 70%;
+}
