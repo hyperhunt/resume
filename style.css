@@ -36,12 +36,12 @@ body {
 }
 
 .sidebar {
-    border: dashed 3px #474A4F;
+    border: dashed 2px #474A4F;
     width: 30%;
 }
 
 .page {
-    border: dashed 3px #474A4F;
+    border: dashed 2px #474A4F;
     margin-left: 5px;
     padding: 15px 15px 15px 15px;
     width: 70%;
@@ -83,11 +83,10 @@ a:hover {
 ul {
     margin: 5px;
     padding-left: 10px;
-}
-
-li {
     list-style-type: none;
 }
+
+li {}
 
 .tech-skills {
     margin: 10px 10px 10px 10px;
@@ -95,4 +94,34 @@ li {
 
 .soft-skills {
     margin: 10px 10px 10px 10px;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.ocher {
+    background: #D19058;
+    color: #292C35;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    font-size: 14px;
+    /* width: 100%; */
+    margin-left: 5px;
+    display: inline-block;
+    /* vertical-align: top; */
+}
+
+.green-marker {
+    background: #98c379;
+    color: #292C35;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    font-size: 14px;
+    /* width: 100%; */
+    margin-left: 5px;
+    display: inline-block;
+    /* vertical-align: top; */
 }
