@@ -2,23 +2,11 @@
     margin: 0px auto;
 }
 
-@font-face {
-
-    font-family: TitilliumWeb;
-    /* Имя шрифта */
-
-    /* src: url(Rubik-Light.ttf); */
-    src: url(TitilliumWeb-Light.ttf);
-    /* src: url(CarterOne-Regular.ttf); */
-    /* Путь к файлу со шрифтом */
-
-}
-
 html,
 body {
     /* background: #202020; */
     background: #21252B;
-    color: #989898;
+    color: #adb3c1;
     /* color: #fff; */
     /* border: solid 1px #B2161D; */
 
@@ -28,10 +16,6 @@ body {
     font-size: 16px;
     line-height: 1.4;
     overflow: hidden;
-}
-
-h2 {
-    font-size: 14px;
 }
 
 .maintile {
@@ -52,12 +36,12 @@ h2 {
 }
 
 .sidebar {
-    border: solid 1px #474A4F;
+    border: dashed 3px #474A4F;
     width: 30%;
 }
 
 .page {
-    border: solid 1px #474A4F;
+    border: dashed 3px #474A4F;
     margin-left: 5px;
     padding: 15px 15px 15px 15px;
     width: 70%;
@@ -85,12 +69,30 @@ h2 {
     margin: 10px 10px 10px 10px;
 }
 
-.tech-skills {
+a {
+    color: #adb3c1;
+    text-decoration-style: dashed;
+    text-decoration-color: #4AA5F0;
+}
+
+a:hover {
     color: #4AA5F0;
+    /* text-decoration-style: dashed; */
+}
+
+ul {
+    margin: 5px;
+    padding-left: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.tech-skills {
     margin: 10px 10px 10px 10px;
 }
 
 .soft-skills {
-    color: #E05561;
     margin: 10px 10px 10px 10px;
 }
