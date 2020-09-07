@@ -1,5 +1,6 @@
 * {
     margin: 0px auto;
+    /* border: 1px solid red; */
 }
 
 html,
@@ -20,7 +21,7 @@ body {
 
 .maintile {
     /* background: #665888; */
-    height: 100vh;
+    height: 75vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -43,7 +44,8 @@ body {
 .page {
     border: dashed 2px #474A4F;
     margin-left: 5px;
-    padding: 15px 15px 15px 15px;
+    /* padding: 15px 15px 15px 15px; */
+    padding: 20px;
     width: 70%;
 }
 
@@ -59,11 +61,28 @@ body {
     margin: 10px 10px 10px 10px;
 }
 
+
+.header {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.period {
+    padding-bottom: 20px;
+}
+
+.period-data {
+    color: #989898;
+}
+
 .resume-header {}
 
 .resume-description {
     color: #989898;
+    padding-bottom: 20px;
 }
+
 
 .contacts {
     margin: 10px 10px 10px 10px;
@@ -96,13 +115,12 @@ li {}
     margin: 10px 10px 10px 10px;
 }
 
-.header {
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 5px;
+h2 {
+    padding-bottom: 10px;
 }
 
-.ocher {
+
+.marker-ocher {
     background: #D19058;
     color: #292C35;
     border-radius: 5px;
@@ -114,7 +132,7 @@ li {}
     /* vertical-align: top; */
 }
 
-.green-marker {
+.marker-green {
     background: #98c379;
     color: #292C35;
     border-radius: 5px;
@@ -124,4 +142,13 @@ li {}
     margin-left: 5px;
     display: inline-block;
     /* vertical-align: top; */
+}
+
+.marker-gray {}
+
+.work-experience {
+}
+
+.projects {
+    padding-bottom: 25px;
 }
